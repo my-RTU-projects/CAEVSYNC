@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:19418",
+      "sslPort": 44391
+    }
+  },
+  "profiles": {
+    "http": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "http://localhost:5001",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "API_URL" : "http://localhost:5001",
+        "GOOGLE_CLIENT_ID": "SET GOOGLE CLIENT ID",
+        "GOOGLE_CLIENT_SECRET": "SET GOOGLE CLIENT SECRET",
+        "GOOGLE_AUTH_CODE_REDIRECT_URL" : "http://localhost:5001/googleAuth/callback",
+        "GOOGLE_SCOPES" : "https://www.googleapis.com/auth/calendar https://www.googleapis.com/auth/calendar.events https://www.googleapis.com/auth/userinfo.profile https://www.googleapis.com/auth/userinfo.email",
+        "MICROSOFT_CLIENT_ID" : "SET MICROSOFT CLIENT ID",
+        "MICROSOFT_CLIENT_SECRET" : "SET MICROSOFT CLIENT SECRET",
+        "MICROSOFT_AUTH_REDIRECT_URL" : "http://localhost:5001/microsoftAuth/callback",
+        "MICROSOFT_SCOPES" : "offline_access Calendars.ReadWrite User.Read",
+        "REACT_CLIENT_URL" : "http://localhost:3000/",
+        "AUTH_VALID_ISSUER" : "CAEVSYNC",
+        "AUTH_VALID_AUDIENCE" : "CAEVSYNC",
+        "AUTH_ISSUER_SIGNING_KEY" : "VERY_SECRET_SIGNING_KEY"
+      },
+      "dotnetRunMessages": true,
+      "dotnetRunMessages": true
+    },
+    "https": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "http://localhost:5294",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "API_URL" : "https://localhost:7195",
+        "GOOGLE_CLIENT_ID": "SET GOOGLE CLIENT ID",
+        "GOOGLE_CLIENT_SECRET": "SET GOOGLE CLIENT SECRET",
+        "GOOGLE_AUTH_CODE_REDIRECT_URL" : "https://localhost:7195/googleAuth/callback",
+        "GOOGLE_SCOPES" : "https://www.googleapis.com/auth/calendar https://www.googleapis.com/auth/calendar.events https://www.googleapis.com/auth/userinfo.profile https://www.googleapis.com/auth/userinfo.email",
+        "MICROSOFT_CLIENT_ID" : "SET MICROSOFT CLIENT ID",
+        "MICROSOFT_CLIENT_SECRET" : "SET MICROSOFT CLIENT SECRET",
+        "MICROSOFT_AUTH_REDIRECT_URL" : "https://localhost:7195/microsoftAuth/callback",
+        "MICROSOFT_SCOPES" : "offline_access Calendars.ReadWrite User.Read",
+        "REACT_CLIENT_URL" : "http://localhost:3000/",
+        "AUTH_VALID_ISSUER" : "CAEVSYNC",
+        "AUTH_VALID_AUDIENCE" : "CAEVSYNC",
+        "AUTH_ISSUER_SIGNING_KEY" : "VERY_SECRET_SIGNING_KEY"
+      },
+      "dotnetRunMessages": true
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

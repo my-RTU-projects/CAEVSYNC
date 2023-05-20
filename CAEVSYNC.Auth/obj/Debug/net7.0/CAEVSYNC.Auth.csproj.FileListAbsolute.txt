@@ -1,0 +1,12 @@
+/Users/kirill/RiderProjects/CAEVSYNC/CAEVSYNC.Auth/bin/Debug/net7.0/CAEVSYNC.Auth.deps.json
+/Users/kirill/RiderProjects/CAEVSYNC/CAEVSYNC.Auth/bin/Debug/net7.0/CAEVSYNC.Auth.dll
+/Users/kirill/RiderProjects/CAEVSYNC/CAEVSYNC.Auth/bin/Debug/net7.0/CAEVSYNC.Auth.pdb
+/Users/kirill/RiderProjects/CAEVSYNC/CAEVSYNC.Auth/obj/Debug/net7.0/CAEVSYNC.Auth.csproj.AssemblyReference.cache
+/Users/kirill/RiderProjects/CAEVSYNC/CAEVSYNC.Auth/obj/Debug/net7.0/CAEVSYNC.Auth.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kirill/RiderProjects/CAEVSYNC/CAEVSYNC.Auth/obj/Debug/net7.0/CAEVSYNC.Auth.AssemblyInfoInputs.cache
+/Users/kirill/RiderProjects/CAEVSYNC/CAEVSYNC.Auth/obj/Debug/net7.0/CAEVSYNC.Auth.AssemblyInfo.cs
+/Users/kirill/RiderProjects/CAEVSYNC/CAEVSYNC.Auth/obj/Debug/net7.0/CAEVSYNC.Auth.csproj.CoreCompileInputs.cache
+/Users/kirill/RiderProjects/CAEVSYNC/CAEVSYNC.Auth/obj/Debug/net7.0/CAEVSYNC.Auth.dll
+/Users/kirill/RiderProjects/CAEVSYNC/CAEVSYNC.Auth/obj/Debug/net7.0/refint/CAEVSYNC.Auth.dll
+/Users/kirill/RiderProjects/CAEVSYNC/CAEVSYNC.Auth/obj/Debug/net7.0/CAEVSYNC.Auth.pdb
+/Users/kirill/RiderProjects/CAEVSYNC/CAEVSYNC.Auth/obj/Debug/net7.0/ref/CAEVSYNC.Auth.dll

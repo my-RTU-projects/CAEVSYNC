@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "yglew/XQqNZg0PEzkBoY5qfjEs5YAV6SddlTrx3v/NLJIxWIMeLSsTuPE1CR0K+JXREbhUH6ie/ZV4yFPRTURg==",
+  "success": true,
+  "projectFilePath": "/Users/kirill/RiderProjects/CAEVSYNC/CAEVSYNC.Common/CAEVSYNC.Common.csproj",
+  "expectedPackageFiles": [
+    "/Users/kirill/.nuget/packages/google.apis/1.60.0/google.apis.1.60.0.nupkg.sha512",
+    "/Users/kirill/.nuget/packages/google.apis.auth/1.60.0/google.apis.auth.1.60.0.nupkg.sha512",
+    "/Users/kirill/.nuget/packages/google.apis.calendar.v3/1.60.0.2993/google.apis.calendar.v3.1.60.0.2993.nupkg.sha512",
+    "/Users/kirill/.nuget/packages/google.apis.core/1.60.0/google.apis.core.1.60.0.nupkg.sha512",
+    "/Users/kirill/.nuget/packages/ical.net/4.2.0/ical.net.4.2.0.nupkg.sha512",
+    "/Users/kirill/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
+    "/Users/kirill/.nuget/packages/nodatime/3.0.0/nodatime.3.0.0.nupkg.sha512",
+    "/Users/kirill/.nuget/packages/system.runtime.compilerservices.unsafe/4.7.1/system.runtime.compilerservices.unsafe.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

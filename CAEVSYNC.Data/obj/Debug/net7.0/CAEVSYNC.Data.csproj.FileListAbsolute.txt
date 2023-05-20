@@ -1,0 +1,17 @@
+/Users/kirill/RiderProjects/CAEVSYNC/CAEVSYNC.Data/bin/Debug/net7.0/CAEVSYNC.Data.deps.json
+/Users/kirill/RiderProjects/CAEVSYNC/CAEVSYNC.Data/bin/Debug/net7.0/CAEVSYNC.Data.runtimeconfig.json
+/Users/kirill/RiderProjects/CAEVSYNC/CAEVSYNC.Data/bin/Debug/net7.0/CAEVSYNC.Data.dll
+/Users/kirill/RiderProjects/CAEVSYNC/CAEVSYNC.Data/bin/Debug/net7.0/CAEVSYNC.Data.pdb
+/Users/kirill/RiderProjects/CAEVSYNC/CAEVSYNC.Data/bin/Debug/net7.0/CAEVSYNC.Common.dll
+/Users/kirill/RiderProjects/CAEVSYNC/CAEVSYNC.Data/bin/Debug/net7.0/CAEVSYNC.Common.pdb
+/Users/kirill/RiderProjects/CAEVSYNC/CAEVSYNC.Data/obj/Debug/net7.0/CAEVSYNC.Data.csproj.AssemblyReference.cache
+/Users/kirill/RiderProjects/CAEVSYNC/CAEVSYNC.Data/obj/Debug/net7.0/CAEVSYNC.Data.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kirill/RiderProjects/CAEVSYNC/CAEVSYNC.Data/obj/Debug/net7.0/CAEVSYNC.Data.AssemblyInfoInputs.cache
+/Users/kirill/RiderProjects/CAEVSYNC/CAEVSYNC.Data/obj/Debug/net7.0/CAEVSYNC.Data.AssemblyInfo.cs
+/Users/kirill/RiderProjects/CAEVSYNC/CAEVSYNC.Data/obj/Debug/net7.0/CAEVSYNC.Data.csproj.CoreCompileInputs.cache
+/Users/kirill/RiderProjects/CAEVSYNC/CAEVSYNC.Data/obj/Debug/net7.0/CAEVSYNC.Data.csproj.CopyComplete
+/Users/kirill/RiderProjects/CAEVSYNC/CAEVSYNC.Data/obj/Debug/net7.0/CAEVSYNC.Data.dll
+/Users/kirill/RiderProjects/CAEVSYNC/CAEVSYNC.Data/obj/Debug/net7.0/refint/CAEVSYNC.Data.dll
+/Users/kirill/RiderProjects/CAEVSYNC/CAEVSYNC.Data/obj/Debug/net7.0/CAEVSYNC.Data.pdb
+/Users/kirill/RiderProjects/CAEVSYNC/CAEVSYNC.Data/obj/Debug/net7.0/CAEVSYNC.Data.genruntimeconfig.cache
+/Users/kirill/RiderProjects/CAEVSYNC/CAEVSYNC.Data/obj/Debug/net7.0/ref/CAEVSYNC.Data.dll

@@ -1,0 +1,20 @@
+﻿<Properties StartupConfiguration="{EF6E0DB7-8BE5-45FB-9B18-9C9131A229A0}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CAEVSYNC.API" selected="True">
+            <Node name="CAEVSYNC.API" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.CAEVSYNC.API PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

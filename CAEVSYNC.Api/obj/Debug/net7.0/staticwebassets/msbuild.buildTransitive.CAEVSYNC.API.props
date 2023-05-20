@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/CAEVSYNC.API.props" />
+</Project>

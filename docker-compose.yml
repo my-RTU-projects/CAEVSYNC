@@ -1,0 +1,44 @@
+version: '3.8'
+
+services:
+    caevsync_database:
+        container_name: 'caevsync_database'
+        image: mcr.microsoft.com/mssql/server:2022-latest
+        restart: always
+        environment:
+            SA_PASSWORD: "C@3vsyncP"
+            ACCEPT_EULA: "Y"
+        ports:
+            - '1433:1433'
+
+    caevsync_backend:
+        container_name: "caevsync_backend"
+        build: ./
+        restart: always
+        environment:
+            API_URL: "http://localhost:5001"
+            GOOGLE_CLIENT_ID: "SET GOOGLE CLIENT ID"
+            GOOGLE_CLIENT_SECRET: "SET GOOGLE CLIENT SECRET"
+            GOOGLE_AUTH_CODE_REDIRECT_URL: "http://localhost:5001/googleAuth/callback"
+            GOOGLE_SCOPES: "https://www.googleapis.com/auth/calendar https://www.googleapis.com/auth/calendar.events https://www.googleapis.com/auth/userinfo.profile https://www.googleapis.com/auth/userinfo.email"
+            MICROSOFT_CLIENT_ID: "SET MICROSOFT CLIENT ID"
+            MICROSOFT_CLIENT_SECRET: "SET MICROSOFT CLIENT SECRET"
+            MICROSOFT_AUTH_REDIRECT_URL: "http://localhost:5001/microsoftAuth/callback"
+            MICROSOFT_SCOPES: "offline_access Calendars.ReadWrite User.Read"
+            REACT_CLIENT_URL: "http://localhost:5002/"
+            AUTH_VALID_ISSUER: "CAEVSYNC"
+            AUTH_VALID_AUDIENCE: "CAEVSYNC"
+            AUTH_ISSUER_SIGNING_KEY: "VERY_SECRET_SIGNING_KEY"
+        ports:
+          - '5001:5001'
+        depends_on:
+          - caevsync_database
+
+    caevsync_frontend:
+        container_name: 'caevsync_frontend'
+        build: ./CAEVSYNC.Web/clientapp
+        restart: always
+        ports:
+          - '5002:80'
+        depends_on:
+            - caevsync_backend
